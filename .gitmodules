@@ -22,3 +22,6 @@
 [submodule "Audio/Audio-Anti-Spoofing"]
 	path = Audio/Audio-Anti-Spoofing
 	url = https://github.com/qiaoweima/Audio-Anti-Spoofing.git
+[submodule "Audio/chatbot_ASR"]
+	path = Audio/chatbot_ASR
+	url = https://github.com/qiaoweima/chatbot_ASR.git
