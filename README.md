@@ -23,7 +23,8 @@
 
 - [Automatic Speech Recognition](https://github.com/qiaoweima/chatbot_ASR)
 - [Dialogue System](https://github.com/qiaoweima/chatbot_SER)
-
+- [Text To Speech](https://github.com/qiaoweima/chatbot_TTS.git)
+- 
 #### 💬 NLP
 
 
