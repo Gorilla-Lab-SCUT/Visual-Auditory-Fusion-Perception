@@ -2,7 +2,7 @@
 
 ## Structure
 
-### Visual Perception
+#### 📷 Visual Perception
 
 - 2D Perception
 
@@ -19,22 +19,22 @@
   - [VISTA](Visual-Perception/3D-Perception/VISTA/)
 
 
-### Audio
+#### 🎧 Audio
 
 
-### NLP
+#### 💬 NLP
 
 
-### Multi-Modal
+#### 🔮 Multi-Modal
 
 
-### Robotic
+#### 🤖 Robotic
 
 
 
 ## NOTE
 
-请大家根据自己组内的工作（不限时间），选择符合相关主题的项目，添加到对应的目录中。
+请大家根据自己组内的工作（不限时间），选择符合相关主题的项目，添加到对应的目录中，收录范围可以尽可能宽泛。
 
 添加完成以后，需要在`README.md`中添加对应的目录。可以在相关主题下继续细分主题。
 
