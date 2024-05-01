@@ -1,0 +1,6 @@
+[submodule "Visual-Perception/2D-Perception/WeSAM"]
+	path = Visual-Perception/2D-Perception/WeSAM
+	url = git@github.com:zhang-haojie/wesam.git
+[submodule "Visual-Perception/2D-Perception/SAM-6D"]
+	path = Visual-Perception/2D-Perception/SAM-6D
+	url = git@github.com:JiehongLin/SAM-6D.git
