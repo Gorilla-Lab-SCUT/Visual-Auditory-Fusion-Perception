@@ -4,3 +4,12 @@
 [submodule "Visual-Perception/2D-Perception/SAM-6D"]
 	path = Visual-Perception/2D-Perception/SAM-6D
 	url = git@github.com:JiehongLin/SAM-6D.git
+[submodule "Visual-Perception/3D-Perception/VISTA"]
+	path = Visual-Perception/3D-Perception/VISTA
+	url = git@github.com:Gorilla-Lab-SCUT/VISTA.git
+[submodule "Visual-Perception/3D-Perception/Frustum-ConvNet"]
+	path = Visual-Perception/3D-Perception/Frustum-ConvNet
+	url = git@github.com:Gorilla-Lab-SCUT/frustum-convnet.git
+[submodule "Visual-Perception/3D-Perception/SSTNet"]
+	path = Visual-Perception/3D-Perception/SSTNet
+	url = git@github.com:Gorilla-Lab-SCUT/SSTNet.git
