@@ -4,19 +4,19 @@
 
 #### 📷 Visual Perception
 
-- 2D Perception
+- [2D Perception](Visual-Perception/2D-Perception/)
 
-  - [SAM-6D](Visual-Perception/2D-Perception/SAM-6D/)
+  - [SAM-6D](https://github.com/JiehongLin/SAM-6D)
 
-  - [WeSAM](Visual-Perception/2D-Perception/WeSAM/)
+  - [WeSAM](https://github.com/zhang-haojie/wesam)
 
-- 3D Perception
+- [3D Perception](Visual-Perception/3D-Perception/)
 
-  - [Frustum-ConvNet](Visual-Perception/3D-Perception/Frustum-ConvNet/)
+  - [Frustum-ConvNet](https://github.com/Gorilla-Lab-SCUT/frustum-convnet)
 
-  - [SSTNet](Visual-Perception/3D-Perception/SSTNet/)
+  - [SSTNet](https://github.com/Gorilla-Lab-SCUT/SSTNet)
 
-  - [VISTA](Visual-Perception/3D-Perception/VISTA/)
+  - [VISTA](https://github.com/Gorilla-Lab-SCUT/VISTA)
 
 
 #### 🎧 Audio
@@ -46,4 +46,6 @@
 git submodule add [子仓库的URL] [子仓库的名称]
 ```
 
-注意: 大家在往仓库中Push代码时，注意先把本地仓库更新到最新。如存在文件冲突，可以参考`git stack`方式进行更新。
+注意: 大家在往仓库中Push代码时，注意先把本地仓库更新到最新。
+
+如存在文件冲突，可以参考`git stack`方式进行更新。
