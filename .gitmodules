@@ -13,3 +13,6 @@
 [submodule "Visual-Perception/3D-Perception/SSTNet"]
 	path = Visual-Perception/3D-Perception/SSTNet
 	url = git@github.com:Gorilla-Lab-SCUT/SSTNet.git
+[submodule "Audio/chatbot_ASR"]
+	path = Audio/chatbot_ASR
+	url = https://github.com/qiaoweima/chatbot_ASR.git
