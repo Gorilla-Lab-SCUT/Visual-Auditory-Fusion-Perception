@@ -21,7 +21,7 @@
 
 #### 🎧 Audio
 
-- [Automatic Speech Recognition](https://github.com/qiaoweima/chatbot_ASR/tree/master)
+- [Automatic Speech Recognition](https://github.com/qiaoweima/chatbot_ASR)
 
 #### 💬 NLP
 
