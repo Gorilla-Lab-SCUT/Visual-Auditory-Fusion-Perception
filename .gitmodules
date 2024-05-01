@@ -16,3 +16,6 @@
 [submodule "Audio/chatbot_ASR"]
 	path = Audio/chatbot_ASR
 	url = https://github.com/qiaoweima/chatbot_ASR.git
+[submodule "Audio/chatbot_SER"]
+	path = Audio/chatbot_SER
+	url = https://github.com/qiaoweima/chatbot_SER.git
