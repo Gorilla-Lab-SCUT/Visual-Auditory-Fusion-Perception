@@ -22,3 +22,6 @@
 [submodule "Audio/chatbot_TTS"]
 	path = Audio/chatbot_TTS
 	url = https://github.com/qiaoweima/chatbot_TTS.git
+[submodule "Audio/Audio-Anti-Spoofing"]
+	path = Audio/Audio-Anti-Spoofing
+	url = https://github.com/qiaoweima/Audio-Anti-Spoofing.git
