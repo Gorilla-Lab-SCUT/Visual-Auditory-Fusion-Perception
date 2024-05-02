@@ -25,7 +25,7 @@
 - [Dialogue System](https://github.com/qiaoweima/chatbot_SER)
 - [Text To Speech](https://github.com/qiaoweima/chatbot_TTS.git)
 - [Audio Anti-spoofing](https://github.com/qiaoweima/Audio-Anti-Spoofing/tree/main)
-- 
+- [Blizzard_Challenge](https://github.com/qiaoweima/Blizzard_Challenge)
 #### 💬 NLP
 
 
