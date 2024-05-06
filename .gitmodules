@@ -178,3 +178,60 @@
 [submodule "Visual-Perception/2D-Perception/MultiwayBP"]
 	path = Visual-Perception/2D-Perception/MultiwayBP
 	url = https://github.com/tanmingkui/multiwaybp.git
+[submodule "Visual-Perception/2D-Perception/CAGEs"]
+	path = Visual-Perception/2D-Perception/CAGEs
+	url = https://github.com/Kali-Hac/Locality-Awareness-SGE.git
+[submodule "Visual-Perception/2D-Perception/CorrReg"]
+	path = Visual-Perception/2D-Perception/CorrReg
+	url = https://github.com/JiehongLin/CorrReg.git
+[submodule "Visual-Perception/2D-Perception/SkeletonNet"]
+	path = Visual-Perception/2D-Perception/SkeletonNet
+	url = https://github.com/Gorilla-Lab-SCUT/SkeletonNet.git
+[submodule "Visual-Perception/2D-Perception/PMF"]
+	path = Visual-Perception/2D-Perception/PMF
+	url = https://github.com/ICEORY/PMF.git
+[submodule "Visual-Perception/2D-Perception/CPEM"]
+	path = Visual-Perception/2D-Perception/CPEM
+	url = https://github.com/deepmo24/CPEM.git
+[submodule "Visual-Perception/2D-Perception/CR-NeRF"]
+	path = Visual-Perception/2D-Perception/CR-NeRF
+	url = https://github.com/YifYang993/CR-NeRF-PyTorch.git
+[submodule "Visual-Perception/2D-Perception/CPCM"]
+	path = Visual-Perception/2D-Perception/CPCM
+	url = https://github.com/lizhaoliu-Lec/CPCM.git
+[submodule "Visual-Perception/2D-Perception/SSTNet"]
+	path = Visual-Perception/2D-Perception/SSTNet
+	url = https://github.com/Gorilla-Lab-SCUT/SSTNet.git
+[submodule "Visual-Perception/2D-Perception/RegNet"]
+	path = Visual-Perception/2D-Perception/RegNet
+	url = https://github.com/PeihaoChen/regnet.git
+[submodule "Visual-Perception/2D-Perception/DRAW"]
+	path = Visual-Perception/2D-Perception/DRAW
+	url = https://github.com/menggehe/DRAW.git
+[submodule "NLP/DRAW"]
+	path = NLP/DRAW
+	url = https://github.com/menggehe/DRAW.git
+[submodule "Audio/RegNet"]
+	path = Audio/RegNet
+	url = https://github.com/PeihaoChen/regnet.git
+[submodule "Visual-Perception/3D-Perception/CPCM"]
+	path = Visual-Perception/3D-Perception/CPCM
+	url = https://github.com/lizhaoliu-Lec/CPCM.git
+[submodule "Visual-Perception/3D-Perception/CR-NeRF"]
+	path = Visual-Perception/3D-Perception/CR-NeRF
+	url = https://github.com/YifYang993/CR-NeRF-PyTorch.git
+[submodule "Visual-Perception/3D-Perception/CPEM"]
+	path = Visual-Perception/3D-Perception/CPEM
+	url = https://github.com/deepmo24/CPEM.git
+[submodule "Visual-Perception/3D-Perception/PMF"]
+	path = Visual-Perception/3D-Perception/PMF
+	url = https://github.com/ICEORY/PMF.git
+[submodule "Visual-Perception/3D-Perception/SkeletonNet"]
+	path = Visual-Perception/3D-Perception/SkeletonNet
+	url = https://github.com/Gorilla-Lab-SCUT/SkeletonNet.git
+[submodule "Visual-Perception/3D-Perception/CorrReg"]
+	path = Visual-Perception/3D-Perception/CorrReg
+	url = https://github.com/JiehongLin/CorrReg.git
+[submodule "Visual-Perception/3D-Perception/CAGEs"]
+	path = Visual-Perception/3D-Perception/CAGEs
+	url = https://github.com/Kali-Hac/Locality-Awareness-SGE.git
