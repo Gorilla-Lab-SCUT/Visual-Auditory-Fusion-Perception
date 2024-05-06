@@ -67,6 +67,7 @@
   - [HAST](https://github.com/lihuantong/HAST)
  
   - [PNAG](https://github.com/guoyongcs/PNAG)
+  - [HQM](https://github.com/MuchHair/HQM.git)
  
 - [3D Perception](Visual-Perception/3D-Perception/)
 
@@ -89,7 +90,7 @@
   - [CR-NeRF](https://github.com/YifYang993/CR-NeRF-PyTorch)
  
   - [CPCM](https://github.com/lizhaoliu-Lec/CPCM)
-  - [HQM](https://github.com/MuchHair/HQM.git)
+ 
 #### 🎧 Audio
 
 - [Automatic Speech Recognition](https://github.com/qiaoweima/chatbot_ASR)
