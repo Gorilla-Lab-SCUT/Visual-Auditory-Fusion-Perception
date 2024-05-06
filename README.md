@@ -72,6 +72,22 @@
  
   - [DAS](https://github.com/lizhaoliu-Lec/DAS)
  
+  - [ProCA](https://github.com/Hongbin98/ProCA)
+ 
+  - [GDFQ](https://github.com/xushoukai/GDFQ)
+ 
+  - [DTQ](https://github.com/xiezheng-cs/DTQ)
+ 
+  - [AGNet](https://github.com/HzFu/AGNet)
+ 
+  - [FC-Net](https://github.com/YifYang993/FC-Net)
+ 
+  - [CP-GAN](https://github.com/JunhongH/CP-GAN)
+ 
+  - [ADQ](https://github.com/ziplab/QTool)
+ 
+  - [AffineGAN](https://github.com/sunlightsgy/AffineGAN)
+ 
   - [PNAG](https://github.com/guoyongcs/PNAG)
   - [HQM](https://github.com/MuchHair/HQM.git)
   - [GGNet](https://github.com/SherlockHolmes221/GGNet.git)
