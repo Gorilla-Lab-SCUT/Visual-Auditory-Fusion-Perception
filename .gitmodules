@@ -40,36 +40,3 @@
 [submodule "Visual-Perception/2D-Perception/GGNet"]
 	path = Visual-Perception/2D-Perception/GGNet
 	url = https://github.com/SherlockHolmes221/GGNet.git
-[submodule "Visual-Perception/2D-Perception/HRNet"]
-	path = Visual-Perception/2D-Perception/HRNet
-	url = https://github.com/HRNet/HRNet-Image-Classification.git
-[submodule "Visual-Perception/2D-Perception/HCMF"]
-	path = Visual-Perception/2D-Perception/HCMF
-	url = https://github.com/xiangfasong/HCMF.git
-[submodule "Visual-Perception/2D-Perception/ISCLNet"]
-	path = Visual-Perception/2D-Perception/ISCLNet
-	url = https://github.com/lphxx6222712/ISCLNet.git
-[submodule "Visual-Perception/2D-Perception/SM-H"]
-	path = Visual-Perception/2D-Perception/SM-H
-	url = https://github.com/Dshaoshuai/Partitioning-stateful-data-stream-applications-in-dynamic-edge-cloud-environments.git
-[submodule "Visual-Perception/2D-Perception/CBFL"]
-	path = Visual-Perception/2D-Perception/CBFL
-	url = https://github.com/lizhipengcs/CBFL.git
-[submodule "Visual-Perception/2D-Perception/DefenseTransformer"]
-	path = Visual-Perception/2D-Perception/DefenseTransformer
-	url = https://github.com/SCUTjinchengli/DefenseTransformer.git
-[submodule "Visual-Perception/2D-Perception/MWGAN"]
-	path = Visual-Perception/2D-Perception/MWGAN
-	url = https://github.com/deepmo24/MWGAN.git
-[submodule "Visual-Perception/2D-Perception/LCCGAN"]
-	path = Visual-Perception/2D-Perception/LCCGAN
-	url = https://github.com/guoyongcs/LCCGAN.git
-[submodule "Visual-Perception/2D-Perception/DRN-for-Single-Image-Super-Resolution"]
-	path = Visual-Perception/2D-Perception/DRN-for-Single-Image-Super-Resolution
-	url = https://github.com/guoyongcs/DRN.git
-[submodule "Visual-Perception/2D-Perception/DRN-for-Video-Grounding"]
-	path = Visual-Perception/2D-Perception/DRN-for-Video-Grounding
-	url = https://github.com/Alvin-Zeng/DRN.git
-[submodule "Visual-Perception/2D-Perception/PGCN"]
-	path = Visual-Perception/2D-Perception/PGCN
-	url = https://github.com/Alvin-Zeng/PGCN.git
