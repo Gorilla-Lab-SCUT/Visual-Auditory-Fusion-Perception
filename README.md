@@ -112,7 +112,7 @@
  
   - [CAC](https://github.com/guoyongcs/CAC)
  
-  - [multiwaybp](https://github.com/tanmingkui/multiwaybp)
+  - [MultiwayBP](https://github.com/tanmingkui/multiwaybp)
  
   - [COVID-DA Dataset](https://drive.google.com/file/d/1w2brbYLn1s1hvmLkKKsBsm1mCbz4F512/view?usp=sharing)
  
@@ -153,7 +153,7 @@
   
 - [Blizzard_Challenge](https://github.com/qiaoweima/Blizzard_Challenge)
 
-- [regnet](https://github.com/PeihaoChen/regnet)
+- [RegNet](https://github.com/PeihaoChen/regnet)
   
 #### 💬 NLP
 
