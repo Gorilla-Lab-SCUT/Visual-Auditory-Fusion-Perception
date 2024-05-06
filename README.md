@@ -48,8 +48,6 @@
  
   - [SymNets](https://github.com/Gorilla-Lab-SCUT/SymNets)
  
-  - [OA3](https://github.com/Vanint/OA3)
- 
   - [RSPNet](https://github.com/PeihaoChen/RSPNet)
  
   - [MPGL](https://github.com/donggong1/mpgl)
@@ -89,8 +87,11 @@
   - [AffineGAN](https://github.com/sunlightsgy/AffineGAN)
  
   - [PNAG](https://github.com/guoyongcs/PNAG)
+    
   - [HQM](https://github.com/MuchHair/HQM.git)
+    
   - [GGNet](https://github.com/SherlockHolmes221/GGNet.git)
+    
   - [PD-Net](https://github.com/MuchHair/PD-Net.git)
  
 - [3D Perception](Visual-Perception/3D-Perception/)
@@ -120,12 +121,17 @@
 #### 🎧 Audio
 
 - [Automatic Speech Recognition](https://github.com/qiaoweima/chatbot_ASR)
+  
 - [Dialogue System](https://github.com/qiaoweima/chatbot_SER)
+  
 - [Text To Speech](https://github.com/qiaoweima/chatbot_TTS.git)
+  
 - [Audio Anti-spoofing](https://github.com/qiaoweima/Audio-Anti-Spoofing/tree/main)
+  
 - [Blizzard_Challenge](https://github.com/qiaoweima/Blizzard_Challenge)
   
 #### 💬 NLP
+
 - [DRAW](https://github.com/menggehe/DRAW)
 
 #### 🔮 Multi-Modal
@@ -153,7 +159,12 @@
 - [YouTube-VLN](https://github.com/JeremyLinky/YouTube-VLN)
 
 #### Others
+
  - [Rat-Crypto-Trader](https://github.com/louisoutin/rat_crypto_trader)
+   
+ - [PPN](https://github.com/kshre/PPN)
+   
+ - [OA3](https://github.com/Vanint/OA3)
 
 ## NOTE
 
