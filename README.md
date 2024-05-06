@@ -16,6 +16,8 @@
  
   - [HRNets](https://github.com/HRNet/HRNet-Image-Classification)
  
+  - [HCMF](https://github.com/xiangfasong/HCMF)
+ 
 - [3D Perception](Visual-Perception/3D-Perception/)
 
   - [Frustum-ConvNet](https://github.com/Gorilla-Lab-SCUT/frustum-convnet)
