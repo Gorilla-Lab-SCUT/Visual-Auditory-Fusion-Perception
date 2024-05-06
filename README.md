@@ -56,6 +56,18 @@
  
   - [CPGA](https://github.com/SCUT-AILab/CPGA)
  
+  - [SGE-LA](https://github.com/Kali-Hac/SGE-LA)
+ 
+  - [SAR](https://github.com/mr-eggplant/SAR)
+ 
+  - [EPS-AD](https://github.com/ZSHsh98/EPS-AD)
+ 
+  - [MME](https://github.com/XinyuSun/MME)
+ 
+  - [HAST](https://github.com/lihuantong/HAST)
+ 
+  - [PNAG](https://github.com/guoyongcs/PNAG)
+ 
 - [3D Perception](Visual-Perception/3D-Perception/)
 
   - [Frustum-ConvNet](https://github.com/Gorilla-Lab-SCUT/frustum-convnet)
@@ -73,6 +85,10 @@
   - [PMF](https://github.com/ICEORY/PMF)
  
   - [CPEM](https://github.com/deepmo24/CPEM)
+ 
+  - [CR-NeRF](https://github.com/YifYang993/CR-NeRF-PyTorch)
+ 
+  - [CPCM](https://github.com/lizhaoliu-Lec/CPCM)
 
 #### 🎧 Audio
 
@@ -98,6 +114,8 @@
 - [ActiveCamera](https://github.com/PeihaoChen/ActiveCamera)
 
 - [WS-MGMap](https://github.com/PeihaoChen/WS-MGMap)
+
+- [YouTube-VLN](https://github.com/JeremyLinky/YouTube-VLN)
 
 ## NOTE
 
