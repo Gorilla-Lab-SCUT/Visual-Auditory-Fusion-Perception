@@ -53,7 +53,11 @@
 
 #### 🔮 Multi-Modal
 
-- [Visual Question Answering](https://github.com/Zhiquan-Wen/TDS)
+- [TDS](https://github.com/Zhiquan-Wen/TDS)
+
+- [D-VQA](https://github.com/Zhiquan-Wen/D-VQA)
+
+- [HPGM](https://github.com/chenqi008/HPGM)
 
 #### 🤖 Robotic
 
