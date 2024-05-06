@@ -66,6 +66,12 @@
  
   - [HAST](https://github.com/lihuantong/HAST)
  
+  - [CPGA](https://github.com/SCUT-AILab/CPGA)
+ 
+  - [DENet](https://github.com/lizhaoliu-Lec/DENet)
+ 
+  - [DAS](https://github.com/lizhaoliu-Lec/DAS)
+ 
   - [PNAG](https://github.com/guoyongcs/PNAG)
   - [HQM](https://github.com/MuchHair/HQM.git)
   - [GGNet](https://github.com/SherlockHolmes221/GGNet.git)
@@ -92,6 +98,8 @@
   - [CR-NeRF](https://github.com/YifYang993/CR-NeRF-PyTorch)
  
   - [CPCM](https://github.com/lizhaoliu-Lec/CPCM)
+ 
+  - [SSTNet](https://github.com/Gorilla-Lab-SCUT/SSTNet)
  
 #### 🎧 Audio
 
@@ -127,6 +135,9 @@
 - [WS-MGMap](https://github.com/PeihaoChen/WS-MGMap)
 
 - [YouTube-VLN](https://github.com/JeremyLinky/YouTube-VLN)
+
+#### Others
+ - [Rat-Crypto-Trader](https://github.com/louisoutin/rat_crypto_trader)
 
 ## NOTE
 
