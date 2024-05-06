@@ -40,3 +40,6 @@
 [submodule "Visual-Perception/2D-Perception/GGNet"]
 	path = Visual-Perception/2D-Perception/GGNet
 	url = https://github.com/SherlockHolmes221/GGNet.git
+[submodule "Visual-Perception/2D-Perception/HRNets"]
+	path = Visual-Perception/2D-Perception/HRNets
+	url = https://github.com/HRNet/HRNet-Image-Classification.git
