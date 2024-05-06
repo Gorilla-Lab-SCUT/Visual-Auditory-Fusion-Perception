@@ -9,6 +9,8 @@
   - [SAM-6D](https://github.com/JiehongLin/SAM-6D)
 
   - [WeSAM](https://github.com/zhang-haojie/wesam)
+ 
+  - [DOQ](https://github.com/SherlockHolmes221/DOQ)
 
 - [3D Perception](Visual-Perception/3D-Perception/)
 
