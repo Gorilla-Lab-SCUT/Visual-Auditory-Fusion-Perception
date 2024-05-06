@@ -22,6 +22,10 @@
  
   - [SM-H](https://github.com/Dshaoshuai/Partitioning-stateful-data-stream-applications-in-dynamic-edge-cloud-environments)
  
+  - [CBFL](https://github.com/lizhipengcs/CBFL)
+ 
+  - [DefenseTransformer](https://github.com/SCUTjinchengli/DefenseTransformer)
+ 
 - [3D Perception](Visual-Perception/3D-Perception/)
 
   - [Frustum-ConvNet](https://github.com/Gorilla-Lab-SCUT/frustum-convnet)
