@@ -139,8 +139,6 @@
  
   - [CPCM](https://github.com/lizhaoliu-Lec/CPCM)
  
-  - [SSTNet](https://github.com/Gorilla-Lab-SCUT/SSTNet)
- 
 #### 🎧 Audio
 
 - [Automatic Speech Recognition](https://github.com/qiaoweima/chatbot_ASR)
