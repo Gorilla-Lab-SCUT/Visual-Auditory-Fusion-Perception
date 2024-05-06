@@ -28,3 +28,6 @@
 [submodule "Audio/Blizzard_Challenge"]
 	path = Audio/Blizzard_Challenge
 	url = https://github.com/qiaoweima/Blizzard_Challenge.git
+[submodule "Visual-Perception/2D-Perception/DOQ"]
+	path = Visual-Perception/2D-Perception/DOQ
+	url = https://github.com/SherlockHolmes221/DOQ.git
