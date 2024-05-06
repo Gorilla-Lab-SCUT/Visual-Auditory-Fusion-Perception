@@ -89,7 +89,7 @@
   - [CR-NeRF](https://github.com/YifYang993/CR-NeRF-PyTorch)
  
   - [CPCM](https://github.com/lizhaoliu-Lec/CPCM)
-
+  - [HQM](https://github.com/MuchHair/HQM.git)
 #### 🎧 Audio
 
 - [Automatic Speech Recognition](https://github.com/qiaoweima/chatbot_ASR)
