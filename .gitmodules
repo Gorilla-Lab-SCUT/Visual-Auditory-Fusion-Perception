@@ -34,3 +34,6 @@
 [submodule "Visual-Perception/2D-Perception/HQM"]
 	path = Visual-Perception/2D-Perception/HQM
 	url = https://github.com/MuchHair/HQM.git
+[submodule "Visual-Perception/2D-Perception/PD-Net"]
+	path = Visual-Perception/2D-Perception/PD-Net
+	url = https://github.com/MuchHair/PD-Net.git
