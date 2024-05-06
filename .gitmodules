@@ -58,3 +58,51 @@
 [submodule "Visual-Perception/2D-Perception/DefenseTransformer"]
 	path = Visual-Perception/2D-Perception/DefenseTransformer
 	url = https://github.com/SCUTjinchengli/DefenseTransformer.git
+[submodule "Visual-Perception/2D-Perception/MWGAN"]
+	path = Visual-Perception/2D-Perception/MWGAN
+	url = https://github.com/deepmo24/MWGAN.git
+[submodule "Visual-Perception/2D-Perception/LCCGAN"]
+	path = Visual-Perception/2D-Perception/LCCGAN
+	url = https://github.com/guoyongcs/LCCGAN.git
+[submodule "Visual-Perception/2D-Perception/DRN-for-Single-Image-Super-Resolution"]
+	path = Visual-Perception/2D-Perception/DRN-for-Single-Image-Super-Resolution
+	url = https://github.com/guoyongcs/DRN.git
+[submodule "Visual-Perception/2D-Perception/DRN-for-Video-Grounding"]
+	path = Visual-Perception/2D-Perception/DRN-for-Video-Grounding
+	url = https://github.com/Alvin-Zeng/DRN.git
+[submodule "Visual-Perception/2D-Perception/PGCN"]
+	path = Visual-Perception/2D-Perception/PGCN
+	url = https://github.com/Alvin-Zeng/PGCN.git
+[submodule "Visual-Perception/2D-Perception/NAT"]
+	path = Visual-Perception/2D-Perception/NAT
+	url = https://github.com/guoyongcs/NAT.git
+[submodule "Visual-Perception/2D-Perception/DCP"]
+	path = Visual-Perception/2D-Perception/DCP
+	url = https://github.com/SCUT-AILab/DCP.git
+[submodule "Visual-Perception/2D-Perception/EATA"]
+	path = Visual-Perception/2D-Perception/EATA
+	url = https://github.com/mr-eggplant/EATA.git
+[submodule "Visual-Perception/2D-Perception/CNAS"]
+	path = Visual-Perception/2D-Perception/CNAS
+	url = https://github.com/guoyongcs/CNAS.git
+[submodule "Visual-Perception/2D-Perception/CTNAS"]
+	path = Visual-Perception/2D-Perception/CTNAS
+	url = https://github.com/chenyaofo/CTNAS.git
+[submodule "Visual-Perception/2D-Perception/SymNets"]
+	path = Visual-Perception/2D-Perception/SymNets
+	url = https://github.com/Gorilla-Lab-SCUT/SymNets.git
+[submodule "Visual-Perception/2D-Perception/RSPNet"]
+	path = Visual-Perception/2D-Perception/RSPNet
+	url = https://github.com/PeihaoChen/RSPNet.git
+[submodule "Visual-Perception/2D-Perception/MPGL"]
+	path = Visual-Perception/2D-Perception/MPGL
+	url = https://github.com/donggong1/mpgl.git
+[submodule "Visual-Perception/2D-Perception/CPGA"]
+	path = Visual-Perception/2D-Perception/CPGA
+	url = https://github.com/SCUT-AILab/CPGA.git
+[submodule "Visual-Perception/2D-Perception/SGE-LA"]
+	path = Visual-Perception/2D-Perception/SGE-LA
+	url = https://github.com/Kali-Hac/SGE-LA.git
+[submodule "Visual-Perception/2D-Perception/SAR"]
+	path = Visual-Perception/2D-Perception/SAR
+	url = https://github.com/mr-eggplant/SAR.git
