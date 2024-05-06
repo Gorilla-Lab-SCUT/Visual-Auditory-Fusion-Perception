@@ -61,7 +61,9 @@
 
 #### 🤖 Robotic
 
+-[ActiveCamera](https://github.com/PeihaoChen/ActiveCamera)
 
+-[WS-MGMap](https://github.com/PeihaoChen/WS-MGMap)
 
 ## NOTE
 
