@@ -235,3 +235,42 @@
 [submodule "Visual-Perception/3D-Perception/CAGEs"]
 	path = Visual-Perception/3D-Perception/CAGEs
 	url = https://github.com/Kali-Hac/Locality-Awareness-SGE.git
+[submodule "Multi-Modal/TDS"]
+	path = Multi-Modal/TDS
+	url = https://github.com/Zhiquan-Wen/TDS.git
+[submodule "Multi-Modal/D-VQA"]
+	path = Multi-Modal/D-VQA
+	url = https://github.com/Zhiquan-Wen/D-VQA.git
+[submodule "Multi-Modal/HPGM"]
+	path = Multi-Modal/HPGM
+	url = https://github.com/chenqi008/HPGM.git
+[submodule "Multi-Modal/CMRAN"]
+	path = Multi-Modal/CMRAN
+	url = https://github.com/FloretCat/CMRAN.git
+[submodule "Multi-Modal/CRN_tvqa"]
+	path = Multi-Modal/CRN_tvqa
+	url = https://github.com/guanghuixu/CRN_tvqa.git
+[submodule "Multi-Modal/LaBERT"]
+	path = Multi-Modal/LaBERT
+	url = https://github.com/bearcatt/LaBERT.git
+[submodule "Multi-Modal/V2C"]
+	path = Multi-Modal/V2C
+	url = https://github.com/chenqi008/V2C.git
+[submodule "Robotic/ActiveCamera"]
+	path = Robotic/ActiveCamera
+	url = https://github.com/PeihaoChen/ActiveCamera.git
+[submodule "Robotic/WS-MGMap"]
+	path = Robotic/WS-MGMap
+	url = https://github.com/PeihaoChen/WS-MGMap.git
+[submodule "Robotic/YouTube-VLN"]
+	path = Robotic/YouTube-VLN
+	url = https://github.com/JeremyLinky/YouTube-VLN.git
+[submodule "Others/Rat-Crypto-Trader"]
+	path = Others/Rat-Crypto-Trader
+	url = https://github.com/louisoutin/rat_crypto_trader.git
+[submodule "Others/PPN"]
+	path = Others/PPN
+	url = https://github.com/kshre/PPN.git
+[submodule "Others/OA3"]
+	path = Others/OA3
+	url = https://github.com/Vanint/OA3.git
