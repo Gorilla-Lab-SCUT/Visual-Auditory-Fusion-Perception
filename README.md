@@ -33,9 +33,7 @@
 
 #### 🔮 Multi-Modal
 
-- [Visual Question Answering](Multi-Modal/Visual-Question-Answering)
-  
-  - [TDS](https://github.com/Zhiquan-Wen/TDS)
+- [Visual Question Answering](https://github.com/Zhiquan-Wen/TDS)
 
 #### 🤖 Robotic
 
