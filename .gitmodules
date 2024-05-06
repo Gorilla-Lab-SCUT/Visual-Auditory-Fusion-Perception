@@ -106,3 +106,75 @@
 [submodule "Visual-Perception/2D-Perception/SAR"]
 	path = Visual-Perception/2D-Perception/SAR
 	url = https://github.com/mr-eggplant/SAR.git
+[submodule "Visual-Perception/2D-Perception/EPS-AD"]
+	path = Visual-Perception/2D-Perception/EPS-AD
+	url = https://github.com/ZSHsh98/EPS-AD.git
+[submodule "Visual-Perception/2D-Perception/MME"]
+	path = Visual-Perception/2D-Perception/MME
+	url = https://github.com/XinyuSun/MME.git
+[submodule "Visual-Perception/2D-Perception/HAST"]
+	path = Visual-Perception/2D-Perception/HAST
+	url = https://github.com/lihuantong/HAST.git
+[submodule "Visual-Perception/2D-Perception/DENet"]
+	path = Visual-Perception/2D-Perception/DENet
+	url = https://github.com/lizhaoliu-Lec/DENet.git
+[submodule "Visual-Perception/2D-Perception/DAS"]
+	path = Visual-Perception/2D-Perception/DAS
+	url = https://github.com/lizhaoliu-Lec/DAS.git
+[submodule "Visual-Perception/2D-Perception/ProCA"]
+	path = Visual-Perception/2D-Perception/ProCA
+	url = https://github.com/Hongbin98/ProCA.git
+[submodule "Visual-Perception/2D-Perception/GDFQ"]
+	path = Visual-Perception/2D-Perception/GDFQ
+	url = https://github.com/xushoukai/GDFQ.git
+[submodule "Visual-Perception/2D-Perception/DTQ"]
+	path = Visual-Perception/2D-Perception/DTQ
+	url = https://github.com/xiezheng-cs/DTQ.git
+[submodule "Visual-Perception/2D-Perception/AGNet"]
+	path = Visual-Perception/2D-Perception/AGNet
+	url = https://github.com/HzFu/AGNet.git
+[submodule "Visual-Perception/2D-Perception/FC-Net"]
+	path = Visual-Perception/2D-Perception/FC-Net
+	url = https://github.com/YifYang993/FC-Net.git
+[submodule "Visual-Perception/2D-Perception/CP-GAN"]
+	path = Visual-Perception/2D-Perception/CP-GAN
+	url = https://github.com/JunhongH/CP-GAN.git
+[submodule "Visual-Perception/2D-Perception/ADQ"]
+	path = Visual-Perception/2D-Perception/ADQ
+	url = https://github.com/ziplab/QTool.git
+[submodule "Visual-Perception/2D-Perception/AffineGAN"]
+	path = Visual-Perception/2D-Perception/AffineGAN
+	url = https://github.com/sunlightsgy/AffineGAN.git
+[submodule "Visual-Perception/2D-Perception/PNAG"]
+	path = Visual-Perception/2D-Perception/PNAG
+	url = https://github.com/guoyongcs/PNAG.git
+[submodule "Visual-Perception/2D-Perception/BPAI-Net"]
+	path = Visual-Perception/2D-Perception/BPAI-Net
+	url = https://github.com/SCUT-AILab/BPAI-Net.git
+[submodule "Visual-Perception/2D-Perception/LCCGAN-v2"]
+	path = Visual-Perception/2D-Perception/LCCGAN-v2
+	url = https://github.com/SCUTjinchengli/LCCGAN-v2.git
+[submodule "Visual-Perception/2D-Perception/GCM"]
+	path = Visual-Perception/2D-Perception/GCM
+	url = https://github.com/Alvin-Zeng/GCM.git
+[submodule "Visual-Perception/2D-Perception/NATv2"]
+	path = Visual-Perception/2D-Perception/NATv2
+	url = https://github.com/guoyongcs/NATv2.git
+[submodule "Visual-Perception/2D-Perception/CoUDA"]
+	path = Visual-Perception/2D-Perception/CoUDA
+	url = https://github.com/Vanint/CoUDA.git
+[submodule "Visual-Perception/2D-Perception/AEGAN"]
+	path = Visual-Perception/2D-Perception/AEGAN
+	url = https://github.com/guoyongcs/AEGAN.git
+[submodule "Visual-Perception/2D-Perception/LayerOT"]
+	path = Visual-Perception/2D-Perception/LayerOT
+	url = https://github.com/SCUTjinchengli/LayerOT.git
+[submodule "Visual-Perception/2D-Perception/AFA"]
+	path = Visual-Perception/2D-Perception/AFA
+	url = https://github.com/xiezheng-cs/AFA.git
+[submodule "Visual-Perception/2D-Perception/CAC"]
+	path = Visual-Perception/2D-Perception/CAC
+	url = https://github.com/guoyongcs/CAC.git
+[submodule "Visual-Perception/2D-Perception/MultiwayBP"]
+	path = Visual-Perception/2D-Perception/MultiwayBP
+	url = https://github.com/tanmingkui/multiwaybp.git
