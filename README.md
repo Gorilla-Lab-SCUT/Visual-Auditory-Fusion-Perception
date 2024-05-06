@@ -174,6 +174,8 @@
 - [LaBERT](https://github.com/bearcatt/LaBERT)
 
 - [V2C](https://github.com/chenqi008/V2C)
+  
+- [Visually Aligned Sound (VAS) Dataset](https://drive.google.com/file/d/14birixmH7vwIWKxCHI0MIWCcZyohF59g/view?usp=sharing)
 
 #### 🤖 Robotic
 
