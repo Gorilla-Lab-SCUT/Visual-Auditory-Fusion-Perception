@@ -25,6 +25,10 @@
   - [SSTNet](https://github.com/Gorilla-Lab-SCUT/SSTNet)
 
   - [VISTA](https://github.com/Gorilla-Lab-SCUT/VISTA)
+ 
+  - [CAGEs](https://github.com/Kali-Hac/Locality-Awareness-SGE)
+
+  - [CorrReg](https://github.com/JiehongLin/CorrReg)
 
 
 #### 🎧 Audio
