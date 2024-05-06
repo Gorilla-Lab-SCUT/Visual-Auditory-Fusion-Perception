@@ -48,6 +48,14 @@
  
   - [SymNets](https://github.com/Gorilla-Lab-SCUT/SymNets)
  
+  - [OA3](https://github.com/Vanint/OA3)
+ 
+  - [RSPNet](https://github.com/PeihaoChen/RSPNet)
+ 
+  - [MPGL](https://github.com/donggong1/mpgl)
+ 
+  - [CPGA](https://github.com/SCUT-AILab/CPGA)
+ 
 - [3D Perception](Visual-Perception/3D-Perception/)
 
   - [Frustum-ConvNet](https://github.com/Gorilla-Lab-SCUT/frustum-convnet)
@@ -75,7 +83,7 @@
 - [Blizzard_Challenge](https://github.com/qiaoweima/Blizzard_Challenge)
   
 #### 💬 NLP
-
+- [DRAW](https://github.com/menggehe/DRAW)
 
 #### 🔮 Multi-Modal
 
