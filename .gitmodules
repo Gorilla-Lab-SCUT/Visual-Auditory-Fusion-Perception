@@ -73,6 +73,3 @@
 [submodule "Visual-Perception/2D-Perception/PGCN"]
 	path = Visual-Perception/2D-Perception/PGCN
 	url = https://github.com/Alvin-Zeng/PGCN.git
-[submodule "Visual-Perception/2D-Perception/PGCN"]
-	path = Visual-Perception/2D-Perception/PGCN
-	url = https://github.com/Alvin-Zeng/PGCN.git
