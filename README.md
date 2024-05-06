@@ -69,7 +69,7 @@
   - [PNAG](https://github.com/guoyongcs/PNAG)
   - [HQM](https://github.com/MuchHair/HQM.git)
   - [GGNet](https://github.com/SherlockHolmes221/GGNet.git)
-  - [PD-Net](https://github.com/MuchHair/PD-Net.git).
+  - [PD-Net](https://github.com/MuchHair/PD-Net.git)
  
 - [3D Perception](Visual-Perception/3D-Perception/)
 
