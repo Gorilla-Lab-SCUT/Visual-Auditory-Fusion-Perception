@@ -43,3 +43,18 @@
 [submodule "Visual-Perception/2D-Perception/HRNets"]
 	path = Visual-Perception/2D-Perception/HRNets
 	url = https://github.com/HRNet/HRNet-Image-Classification.git
+[submodule "Visual-Perception/2D-Perception/HCMF"]
+	path = Visual-Perception/2D-Perception/HCMF
+	url = https://github.com/xiangfasong/HCMF.git
+[submodule "Visual-Perception/2D-Perception/ISCLNet"]
+	path = Visual-Perception/2D-Perception/ISCLNet
+	url = https://github.com/lphxx6222712/ISCLNet.git
+[submodule "Visual-Perception/2D-Perception/SM-H"]
+	path = Visual-Perception/2D-Perception/SM-H
+	url = https://github.com/Dshaoshuai/Partitioning-stateful-data-stream-applications-in-dynamic-edge-cloud-environments.git
+[submodule "Visual-Perception/2D-Perception/CBFL"]
+	path = Visual-Perception/2D-Perception/CBFL
+	url = https://github.com/lizhipengcs/CBFL.git
+[submodule "Visual-Perception/2D-Perception/DefenseTransformer"]
+	path = Visual-Perception/2D-Perception/DefenseTransformer
+	url = https://github.com/SCUTjinchengli/DefenseTransformer.git
