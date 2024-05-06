@@ -18,6 +18,10 @@
  
   - [HCMF](https://github.com/xiangfasong/HCMF)
  
+  - [ISCLNet](https://github.com/lphxx6222712/ISCLNet)
+ 
+  - [SM-H](https://github.com/Dshaoshuai/Partitioning-stateful-data-stream-applications-in-dynamic-edge-cloud-environments)
+ 
 - [3D Perception](Visual-Perception/3D-Perception/)
 
   - [Frustum-ConvNet](https://github.com/Gorilla-Lab-SCUT/frustum-convnet)
@@ -29,6 +33,8 @@
   - [CAGEs](https://github.com/Kali-Hac/Locality-Awareness-SGE)
 
   - [CorrReg](https://github.com/JiehongLin/CorrReg)
+ 
+  - [SkeletonNet](https://github.com/Gorilla-Lab-SCUT/SkeletonNet)
 
 
 #### 🎧 Audio
