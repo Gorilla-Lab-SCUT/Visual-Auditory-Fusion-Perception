@@ -94,6 +94,27 @@
     
   - [PD-Net](https://github.com/MuchHair/PD-Net.git)
  
+  - [BPAI-Net](https://github.com/SCUT-AILab/BPAI-Net)
+ 
+  - [LCCGAN-v2](https://github.com/SCUTjinchengli/LCCGAN-v2)
+ 
+  - [GCM](https://github.com/Alvin-Zeng/GCM)
+ 
+  - [NATv2](https://github.com/guoyongcs/NATv2)
+ 
+  - [CoUDA](https://github.com/Vanint/CoUDA)
+ 
+  - [AEGAN](https://github.com/guoyongcs/AEGAN)
+ 
+  - [LayerOT](https://github.com/SCUTjinchengli/LayerOT)
+ 
+  - [AFA](https://github.com/xiezheng-cs/AFA)
+ 
+  - [CAC](https://github.com/guoyongcs/CAC)
+ 
+  - [multiwaybp](https://github.com/tanmingkui/multiwaybp)
+ 
+    
 - [3D Perception](Visual-Perception/3D-Perception/)
 
   - [Frustum-ConvNet](https://github.com/Gorilla-Lab-SCUT/frustum-convnet)
@@ -129,6 +150,8 @@
 - [Audio Anti-spoofing](https://github.com/qiaoweima/Audio-Anti-Spoofing/tree/main)
   
 - [Blizzard_Challenge](https://github.com/qiaoweima/Blizzard_Challenge)
+
+- [regnet](https://github.com/PeihaoChen/regnet)
   
 #### 💬 NLP
 
