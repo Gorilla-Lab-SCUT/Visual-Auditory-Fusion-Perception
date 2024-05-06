@@ -32,9 +32,21 @@
  
   - [DRN for Single Image Super-Resolution](https://github.com/guoyongcs/DRN)
  
-  - [DRN] for Video Grounding(https://github.com/Alvin-Zeng/DRN)
+  - [DRN for Video Grounding](https://github.com/Alvin-Zeng/DRN)
  
   - [PGCN](https://github.com/Alvin-Zeng/PGCN)
+ 
+  - [NAT](https://github.com/guoyongcs/NAT)
+ 
+  - [DCP](https://github.com/SCUT-AILab/DCP)
+ 
+  - [EATA](https://github.com/mr-eggplant/EATA)
+ 
+  - [CNAS](https://github.com/guoyongcs/CNAS)
+ 
+  - [CTNAS](https://github.com/chenyaofo/CTNAS)
+ 
+  - [SymNets](https://github.com/Gorilla-Lab-SCUT/SymNets)
  
 - [3D Perception](Visual-Perception/3D-Perception/)
 
