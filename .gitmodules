@@ -274,3 +274,9 @@
 [submodule "Others/OA3"]
 	path = Others/OA3
 	url = https://github.com/Vanint/OA3.git
+[submodule "NLP/CogVLM"]
+	path = NLP/CogVLM
+	url = git@github.com:THUDM/CogVLM.git
+[submodule "NLP/Qwen"]
+	path = NLP/Qwen
+	url = git@github.com:QwenLM/Qwen.git
