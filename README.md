@@ -157,6 +157,10 @@
 
 - [DRAW](https://github.com/menggehe/DRAW)
 
+- [CogVLM](https://github.com/THUDM/CogVLM.git)
+
+- [Qwen](https://github.com/QwenLM/Qwen.git)
+
 #### 🔮 Multi-Modal
 
 - [TDS](https://github.com/Zhiquan-Wen/TDS)
