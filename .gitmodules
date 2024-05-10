@@ -289,3 +289,6 @@
 [submodule "Visual-Perception/2D-Perception/TRIBE"]
 	path = Visual-Perception/2D-Perception/TRIBE
 	url = https://github.com/Gorilla-Lab-SCUT/TRIBE
+[submodule "Audio/SSL-PVAD"]
+	path = Audio/SSL-PVAD
+	url = https://github.com/HolgerBovbjerg/SSL-PVAD.git
