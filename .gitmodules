@@ -280,3 +280,12 @@
 [submodule "NLP/Qwen"]
 	path = NLP/Qwen
 	url = git@github.com:QwenLM/Qwen.git
+[submodule "Visual-Perception/2D-Perception/TTAC"]
+	path = Visual-Perception/2D-Perception/TTAC
+	url = https://github.com/Gorilla-Lab-SCUT/TTAC
+[submodule "Visual-Perception/2D-Perception/TTAC2"]
+	path = Visual-Perception/2D-Perception/TTAC2
+	url = https://github.com/Gorilla-Lab-SCUT/TTAC2
+[submodule "Visual-Perception/2D-Perception/TRIBE"]
+	path = Visual-Perception/2D-Perception/TRIBE
+	url = https://github.com/Gorilla-Lab-SCUT/TRIBE

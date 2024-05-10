@@ -9,6 +9,12 @@
   - [SAM-6D](https://github.com/JiehongLin/SAM-6D)
 
   - [WeSAM](https://github.com/zhang-haojie/wesam)
+
+  - [TTAC++](https://github.com/Gorilla-Lab-SCUT/TTAC2)
+
+  - [TRIBE](https://github.com/Gorilla-Lab-SCUT/TRIBE)
+
+  - [TTAC](https://github.com/Gorilla-Lab-SCUT/TTAC)
  
   - [DOQ](https://github.com/SherlockHolmes221/DOQ)
  
