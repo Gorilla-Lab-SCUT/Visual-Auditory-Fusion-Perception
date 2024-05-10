@@ -157,7 +157,7 @@
   
 - [Blizzard_Challenge](https://github.com/qiaoweima/Blizzard_Challenge)
 
-- [VAD](https://github.com/HolgerBovbjerg/SSL-PVAD)
+- [Voice Activity Detection](https://github.com/HolgerBovbjerg/SSL-PVAD)
 
 - [RegNet](https://github.com/PeihaoChen/regnet)
   
