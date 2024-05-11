@@ -52,7 +52,7 @@ else:
 text_only_template = "A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: {} ASSISTANT:"
 
 while True:
-    image_path = input("image path >>>>> ")
+    image_path = input("图片地址 >>>>> ")
     if image_path == '':
         print('You did not enter image path, the following will be a plain text conversation.')
         image = None
@@ -75,7 +75,7 @@ while True:
                 old_prompt = ''
                 for _, (old_query, response) in enumerate(history):
                     old_prompt += old_query + " " + response + "\n"
-                query = old_prompt + "USER: {} ASSISTANT:".format(query)
+                query = old_prompt + "用户: {} 小千:".format(query)
 
         if image is None:
             input_by_model = model.build_conversation_input_ids(tokenizer, query=query, history=history, template_version='base')
