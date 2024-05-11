@@ -5,49 +5,45 @@
 ### Installation
 
 ```
-cd NLP/CogVLM
-# CUDA >= 11.8
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
+cd NLP
+
+pip install SwissArmyTransformer>=0.4.9 \
+transformers>=4.36.2 \
+xformers>=0.0.22\
+torch>=2.1.0\
+torchvision>=0.16.2\
+spacy>=3.6.0\
+pillow>=10.2.0\
+deepspeed>=0.13.1\
+seaborn>=0.13.2\
+loguru~=0.7.2\
+streamlit>=1.31.0\
+timm>=0.9.12\
+accelerate>=0.26.1\
+pydantic>=2.6.0
 ```
-
-You can download the checkpoint on 🤗Huggingface.
-
-- CogAgent
-
-  |   Model name    | Input resolution |                             Introduction                             | Huggingface model | SAT model |
-  | :-----------: | :----: | :----------------------------------------------------------: | :------: | :-------: |
-  | cogagent-chat |  1120  | Chat version of CogAgent. Supports GUI Agent, multiple-round  chat and visual grounding. |  [HF link](https://huggingface.co/THUDM/cogagent-chat-hf) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogagent-chat-hf)    |   [HF link](https://huggingface.co/THUDM/CogAgent/tree/main)<br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogAgent)           |
-  | cogagent-vqa |  1120  | VQA version of CogAgent. Has stronger capabilities in single-turn visual dialogue. Recommended for VQA benchmarks. |  [HF link](https://huggingface.co/THUDM/cogagent-vqa-hf)<br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogagent-vqa-hf)        |    [HF link](https://huggingface.co/THUDM/CogAgent/tree/main) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogAgent)      |
-  
-- CogVLM
-
-  |          Model name           | Input resolution |                           Introduction                            | Huggingface model | SAT model |
-  | :-------------------------: | :----: | :-------------------------------------------------------: | :------: | :-------: |
-  |         cogvlm-chat-v1.1         |  490   |  Supports multiple rounds of chat and vqa simultaneously, with different prompts.   |  [HF link](https://huggingface.co/THUDM/cogvlm-chat-hf) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogvlm-chat-hf)        |    [HF link](https://huggingface.co/THUDM/CogVLM/tree/main)  <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogVLM)       |
-  |       cogvlm-base-224       |  224   |               The original checkpoint after text-image pretraining.               |   [HF link](https://huggingface.co/THUDM/cogvlm-base-224-hf) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogvlm-base-224-hf)       |     [HF link](https://huggingface.co/THUDM/CogVLM/tree/main) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogVLM)       |
-  |       cogvlm-base-490       |  490   |      Amplify the resolution to 490 through position encoding interpolation from `cogvlm-base-224`.      |   [HF link](https://huggingface.co/THUDM/cogvlm-base-490-hf) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogvlm-base-490-hf)       |     [HF link](https://huggingface.co/THUDM/CogVLM/tree/main) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogVLM)       |
-  | cogvlm-grounding-generalist |  490   | This checkpoint supports different visual grounding tasks, e.g. REC, Grounding Captioning, etc.  |    [HF link](https://huggingface.co/THUDM/cogvlm-grounding-generalist-hf)  <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogvlm-grounding-generalist-hf)       |     [HF link](https://huggingface.co/THUDM/CogVLM/tree/main)   <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogVLM)     |
-
 
 ### Inference
 
-```
-# CogAgent
-python cli_demo_hf.py --from_pretrained THUDM/cogagent-chat-hf --bf16
-python cli_demo_hf.py --from_pretrained THUDM/cogagent-vqa-hf --bf16
+本项目由大模型后端以及操作逻辑后端组成。
 
-# CogVLM
-python cli_demo_hf.py --from_pretrained THUDM/cogvlm-chat-hf --bf16
-python cli_demo_hf.py --from_pretrained THUDM/cogvlm-grounding-generalist-hf --bf16
-```
-
-If you want to manually download the weights, you can replace the path after ```--from_pretrained``` with the model path.
-
-You can change ```--bf16``` to ```--fp16```, or ```--quant 4```. For example, CogVLM supports Huggingface's 4-bit quantization:
+启动大模型后端
 
 ```
-python cli_demo_hf.py --from_pretrained THUDM/cogvlm-chat-hf --quant 4
+uvicorn backend:app --host 127.0.0.1 --port 11451 --log-config log.yaml > log/backend.txt
+```
+
+启动逻辑后端
+
+```
+uvicorn main:app --host 172.21.229.79 --port 30009 --log-config log.yaml > log/main.txt
+```
+
+启动后可以通过一下脚本进行测试
+
+```
+url_encoded=$(printf "%s" "苹果在哪里" | curl -Gso /dev/null -w %{url_effective} --data-urlencode @- "" | cut -c 3-)
+curl -X POST -F 'image=@./test/real0.jpg' http://$url/mllm?text=$url_encoded
 ```
 
 ## Structure
