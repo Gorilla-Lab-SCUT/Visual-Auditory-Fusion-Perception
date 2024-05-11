@@ -1,5 +1,55 @@
 # Visual-Auditory-Fusion-Perception
 
+## Preparation
+
+### Installation
+
+```
+cd NLP/CogVLM
+# CUDA >= 11.8
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
+
+You can download the checkpoint on 🤗Huggingface.
+
+- CogAgent
+
+  |   Model name    | Input resolution |                             Introduction                             | Huggingface model | SAT model |
+  | :-----------: | :----: | :----------------------------------------------------------: | :------: | :-------: |
+  | cogagent-chat |  1120  | Chat version of CogAgent. Supports GUI Agent, multiple-round  chat and visual grounding. |  [HF link](https://huggingface.co/THUDM/cogagent-chat-hf) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogagent-chat-hf)    |   [HF link](https://huggingface.co/THUDM/CogAgent/tree/main)<br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogAgent)           |
+  | cogagent-vqa |  1120  | VQA version of CogAgent. Has stronger capabilities in single-turn visual dialogue. Recommended for VQA benchmarks. |  [HF link](https://huggingface.co/THUDM/cogagent-vqa-hf)<br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogagent-vqa-hf)        |    [HF link](https://huggingface.co/THUDM/CogAgent/tree/main) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogAgent)      |
+  
+- CogVLM
+
+  |          Model name           | Input resolution |                           Introduction                            | Huggingface model | SAT model |
+  | :-------------------------: | :----: | :-------------------------------------------------------: | :------: | :-------: |
+  |         cogvlm-chat-v1.1         |  490   |  Supports multiple rounds of chat and vqa simultaneously, with different prompts.   |  [HF link](https://huggingface.co/THUDM/cogvlm-chat-hf) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogvlm-chat-hf)        |    [HF link](https://huggingface.co/THUDM/CogVLM/tree/main)  <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogVLM)       |
+  |       cogvlm-base-224       |  224   |               The original checkpoint after text-image pretraining.               |   [HF link](https://huggingface.co/THUDM/cogvlm-base-224-hf) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogvlm-base-224-hf)       |     [HF link](https://huggingface.co/THUDM/CogVLM/tree/main) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogVLM)       |
+  |       cogvlm-base-490       |  490   |      Amplify the resolution to 490 through position encoding interpolation from `cogvlm-base-224`.      |   [HF link](https://huggingface.co/THUDM/cogvlm-base-490-hf) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogvlm-base-490-hf)       |     [HF link](https://huggingface.co/THUDM/CogVLM/tree/main) <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogVLM)       |
+  | cogvlm-grounding-generalist |  490   | This checkpoint supports different visual grounding tasks, e.g. REC, Grounding Captioning, etc.  |    [HF link](https://huggingface.co/THUDM/cogvlm-grounding-generalist-hf)  <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/cogvlm-grounding-generalist-hf)       |     [HF link](https://huggingface.co/THUDM/CogVLM/tree/main)   <br> [OpenXLab link](https://openxlab.org.cn/models/detail/THUDM/CogVLM)     |
+
+
+### Inference
+
+```
+# CogAgent
+python cli_demo_hf.py --from_pretrained THUDM/cogagent-chat-hf --bf16
+python cli_demo_hf.py --from_pretrained THUDM/cogagent-vqa-hf --bf16
+
+# CogVLM
+python cli_demo_hf.py --from_pretrained THUDM/cogvlm-chat-hf --bf16
+python cli_demo_hf.py --from_pretrained THUDM/cogvlm-grounding-generalist-hf --bf16
+```
+
+If you want to manually download the weights, you can replace the path after ```--from_pretrained``` with the model path.
+
+You can change ```--bf16``` to ```--fp16```, or ```--quant 4```. For example, CogVLM supports Huggingface's 4-bit quantization:
+
+```
+python cli_demo_hf.py --from_pretrained THUDM/cogvlm-chat-hf --quant 4
+```
+
 ## Structure
 
 #### 📈 Benchmark ####
