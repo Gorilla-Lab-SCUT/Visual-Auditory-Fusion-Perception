@@ -36,7 +36,7 @@ uvicorn backend:app --host 127.0.0.1 --port 11451 --log-config log.yaml > log/ba
 启动逻辑后端
 
 ```
-uvicorn main:app --host 172.21.229.79 --port 30009 --log-config log.yaml > log/main.txt
+uvicorn main:app --host 0.0.0.0 --port 30009 --log-config log.yaml > log/main.txt
 ```
 
 启动后可以通过一下脚本进行测试
