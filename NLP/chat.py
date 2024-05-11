@@ -36,10 +36,6 @@ class BaseChatModel:
     def gen_query(self, query: str, history_list: list) -> str: ...
 
     def fix_response(self, response: str) -> str:
-        response = response.replace("清华大学", "华南理工大学")
-        response = response.replace("KEG", "几何感知与智能")
-        response = response.replace("智谱AI", "深圳跨维")
-        response = response.replace("GLM3-6B", "大数据")
         return response
 
 
