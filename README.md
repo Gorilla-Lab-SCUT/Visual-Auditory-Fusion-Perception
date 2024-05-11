@@ -4,47 +4,56 @@
 
 ### Installation
 
-```
-cd NLP
 
-pip install SwissArmyTransformer>=0.4.9 \
-transformers>=4.36.2 \
-xformers>=0.0.22\
-torch>=2.1.0\
-torchvision>=0.16.2\
-spacy>=3.6.0\
-pillow>=10.2.0\
-deepspeed>=0.13.1\
-seaborn>=0.13.2\
-loguru~=0.7.2\
-streamlit>=1.31.0\
-timm>=0.9.12\
-accelerate>=0.26.1\
-pydantic>=2.6.0
+### 安装指南
+
+在使用我们的模型之前，首先需要确保您的环境中安装了所有必要的依赖项。这些依赖项涵盖了模型运行所需的库和工具，以确保您可以顺利地进行模型推理。以下是安装这些依赖项的步骤：
+
+1. **打开终端或命令提示符**：根据您的操作系统，打开相应的命令行界面。
+2. **使用pip安装依赖项**：输入以下命令以使用pip安装所需的Python包和库。
+
+
+```bash
+pip install SwissArmyTransformer>=0.4.9 transformers>=4.36.2 xformers>=0.0.22 torch>=2.1.0 torchvision>=0.16.2 spacy>=3.6.0 pillow>=10.2.0 deepspeed>=0.13.1 seaborn>=0.13.2 loguru~=0.7.2 streamlit>=1.31.0 timm>=0.9.12 accelerate>=0.26.1 pydantic>=2.6.0
 ```
 
-### Inference
+这个命令会安装一系列Python库，包括用于深度学习的库（如`torch`和`transformers`）、用于图像处理的库（如`torchvision`和`pillow`）、用于自然语言处理的库（如`spacy`）、用于模型加速的库（如`deepspeed`和`accelerate`），以及其他一些用于数据可视化（如`seaborn`）和日志记录（如`loguru`）的库。
 
-本项目由大模型后端以及操作逻辑后端组成。
+### 推理指南
 
-启动大模型后端
+一旦您安装了所有必要的依赖项，就可以使用我们的模型进行推理了。我们提供了两种推理方式：使用终端进行推理和使用交互式推理。
+
+#### 使用终端进行推理
+
+如果您想在终端中直接运行推理脚本，可以使用以下命令：
+
+
+```bash
+python chatme.py --image demo.jpg --question "苹果在桌子的哪里？"
+```
+
+这个命令会加载一个预训练的模型，并使用提供的图片（`demo.jpg`）和问题（`"苹果在桌子的哪里？"`）进行推理。模型会分析图片并尝试回答提出的问题。推理结果会以文本形式输出到终端中，例如：
 
 ```
-uvicorn backend:app --host 127.0.0.1 --port 11451 --log-config log.yaml > log/backend.txt
+小千：苹果在桌子的右边。
 ```
 
-启动逻辑后端
+#### 使用交互式推理
 
-```
-uvicorn main:app --host 0.0.0.0 --port 30009 --log-config log.yaml > log/main.txt
+除了使用终端进行推理外，您还可以使用交互式推理功能来与大模型进行实时交互。要启动交互式终端，请运行以下命令：
+
+```bash
+python main.py
 ```
 
-启动后可以通过一下脚本进行测试
+这个命令会启动一个交互式终端，等待您输入图片地址。您可以在终端中输入图片的地址（例如`demo.jpg`），然后按下回车键。模型会根据您提供的图片进行推理，并等待您输入问题。一旦您输入了问题（例如`"苹果在桌子的哪里？"`），模型就会分析图片并尝试回答该问题。推理结果会以文本形式输出到终端中，例如：
 
+```bash
+图片地址 >>>>> demo.jpg
+用户：苹果在桌子的哪里？
+小千：苹果在桌子的右边。
 ```
-url_encoded=$(printf "%s" "苹果在哪里" | curl -Gso /dev/null -w %{url_effective} --data-urlencode @- "" | cut -c 3-)
-curl -X POST -F 'image=@./test/real0.jpg' http://$url/mllm?text=$url_encoded
-```
+通过这种方式，您可以轻松地与模型进行交互，并向其提出各种问题。
 
 ## Structure
 
