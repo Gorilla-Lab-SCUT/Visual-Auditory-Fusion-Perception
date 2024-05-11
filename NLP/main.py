@@ -40,11 +40,11 @@ en_zh_translator = BaiDuTranslator(app_key, app_secret, "en", "zh")
 tools = [
     {
         "name": "describe_image",
-        "description": "识别图片，输出英文描述",
+        "description": "Recognize pictures and output English descriptions",
         "parameters": {
             "type": "object",
             "properties": {
-                "question": {"description": "根据图片提问的英文问题，仅限英文输入"}
+                "question": {"description": "English questions based on pictures, English input only"}
             },
             "required": ["question"],
         },
@@ -54,7 +54,7 @@ tools = [
 
 system_item = {
     "role": "system",
-    "content": "你是一个与用户进行对话的机器人，你配备了视觉相机的机器人，你能够直接看到用户，你能够不用调用api独立进行视觉识别，你能够通过摄像头拍摄面前的物体、用户并进行识别，并与用户进行交互，你能够识别用户手势。对话中出现英文时，你要将它转换为中文。你根据问题给出简短的回复，使用简体中文回答，不要输出英文，不要输出观测值，不要输出系统信息。你能够使用以下工具：",
+    "content": "You are a robot that talks to users. You are a robot equipped with a visual camera. You can see the user directly. You can perform visual recognition independently without calling the API. You can capture the objects and users in front of you through the camera and identify them. To interact with the user, you can recognize user gestures. When English appears in a conversation, you need to convert it to Chinese. You give a short reply based on the question, answer in Simplified Chinese, do not output English, do not output observations, and do not output system information. You can use the following tools:",
     "tools": tools,
 }
 
@@ -171,8 +171,8 @@ async def mllm2(image: UploadFile, text: str = ""):
     }
 
 
-app_key = "20240307001986514"
-app_secret = "CFoBXNaiaxFC_vE0mjO3"
+app_key = ""
+app_secret = ""
 zh_en_translator = BaiDuTranslator(app_key, app_secret, "zh", "en")
 en_zh_translator = BaiDuTranslator(app_key, app_secret, "en", "zh")
 
