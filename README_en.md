@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="./asserts/robot.jpg" width=900 >
+  <img src="./asserts/robot_l.png" width=600 >
 </div>
 
 <div align="center">
