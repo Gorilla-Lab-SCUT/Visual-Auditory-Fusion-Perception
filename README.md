@@ -1,10 +1,10 @@
-<div align=center>
-  <img src="./asserts/robot.jpg" width=900 >
-</div>
+<!-- <div align=center>
+  <img src="./asserts/robot_l.png" width=400 >
+</div> -->
 
-<div align="center">
+<div style="display: flex; justify-content: center;"> 
 
-<h1> 视听融合感知智能引擎平台 </h1>
+<h1> <img src="./asserts/robot_h_s.png" width="40"> 视听融合感知智能引擎平台 </h1> 
 
 </div>
 
