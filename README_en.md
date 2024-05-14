@@ -3,7 +3,7 @@
 
 <h1 style="margin-top: -40px;"> Visual-Auditory Fusion Perception AI Platform </h1> 
 
-[![madewithlove](https://img.shields.io/badge/made_with-%E2%9D%A4-red?style=for-the-badge&labelColor=orange)](https://github.com/Gorilla-Lab-SCUT/Visual-Auditory-Fusion-Perception) &nbsp; 
+<!-- [![madewithlove](https://img.shields.io/badge/made_with-%E2%9D%A4-red?style=for-the-badge&labelColor=orange)](https://github.com/Gorilla-Lab-SCUT/Visual-Auditory-Fusion-Perception) &nbsp;  -->
 [![Project Page](https://img.shields.io/badge/Project-Page-F9AB00?style=for-the-badge)](http://183.63.152.178:6710/#/login) &nbsp; 
 [![License](https://img.shields.io/badge/LICENSE-MIT-green.svg?style=for-the-badge)](https://github.com/Gorilla-Lab-SCUT/Visual-Auditory-Fusion-Perception/blob/main/LICENSE) &nbsp; 
 [![Demo Website](https://img.shields.io/badge/Demo-Website-yellow.svg?style=for-the-badge)](http://183.63.152.178:6710/#/engine-platform/visual-semantics) &nbsp; 
