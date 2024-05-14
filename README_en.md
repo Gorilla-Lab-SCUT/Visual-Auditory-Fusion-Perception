@@ -1,14 +1,13 @@
 <div align=center>
-  <img src="asserts/robot_l.png" width=600 >
-</div>
+  <img src="asserts/robot.png" width=300 >
+
+<h1 style="margin-top: -20px;">  视听融合感知智能引擎平台 </h1> 
 
 <div align="center">
 
-# Visual-Auditory Fusion Perception AI Platform
+📕中文版README | 📗 [英文版README](./README_en.md)
 
 </div>
-
-<div align="center">
 
 [📕 Chinese README](./README.md) | 📗 English README
 
