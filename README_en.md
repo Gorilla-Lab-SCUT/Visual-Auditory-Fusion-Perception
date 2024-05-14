@@ -1,12 +1,10 @@
-Here is the English version of the instructions in Markdown format:
-
 <div align=center>
   <img src="asserts/robot_l.png" width=600 >
 </div>
 
 <div align="center">
 
-# Multimodal Perception AI Platform
+# Visual-Auditory Fusion Perception AI Platform
 
 </div>
 
