@@ -1,5 +1,5 @@
 <div align=center>
-  <img src="asserts/robot_l.png" width=600 >
+  <img src="asserts/robot.png" width=300 >
 </div>
 
 <div align="center">
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 安装完所有必要的依赖项后，您就可以开始使用我们的模型进行推理了。我们提供了两种推理方式：使用终端进行推理和使用交互式推理。
 
-这里我们以示例图片asserts/demo.jpg为例进行说明:
+这里我们以示例图片`asserts/demo.jpg`为例进行说明:
 
 <img src="asserts/demo.jpg" width=400>
 
