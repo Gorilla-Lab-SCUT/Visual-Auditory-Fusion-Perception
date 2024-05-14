@@ -1,7 +1,7 @@
 <div align=center>
   <img src="asserts/robot.png" width=300 >
 
-<h1 style="margin-top: -50px;">  视听融合感知智能引擎平台 </h1> 
+<h1 style="margin-top: -40px;">  视听融合感知智能引擎平台 </h1> 
 
 📕中文版 README | 📗 [English README](./README_en.md)
 

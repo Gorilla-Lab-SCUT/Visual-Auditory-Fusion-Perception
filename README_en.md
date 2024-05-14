@@ -1,9 +1,9 @@
 <div align=center>
   <img src="asserts/robot.png" width=300 >
 
-<h1 style="margin-top: -50px;"> Visual-Auditory Fusion Perception AI Platform </h1> 
+<h1 style="margin-top: -40px;"> Visual-Auditory Fusion Perception AI Platform </h1> 
 
-[📕中文版 README](./README.md) | 📗 English README
+[📕 中文版 README](./README.md) | 📗 English README
 
 </div>
 
