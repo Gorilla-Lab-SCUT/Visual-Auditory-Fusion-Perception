@@ -43,15 +43,15 @@ Here, we will use the example image `asserts/demo.jpg` for illustration:
 If you want to directly run the inference script in the terminal, you can use the following command:
 
 ```bash
-python chatme.py --image asserts/demo.jpg --question "Where is the apple on the table?"
+python chatme.py --image asserts/demo.jpg --question "How many apples are there on the shelf?"
 ```
 
-This command will load the pre-trained model and perform inference using the provided image (`demo.jpg`) and question (`"Where is the apple on the table?"`).
+This command will load the pre-trained model and perform inference using the provided image (`demo.jpg`) and question (`"How many apples are there on the shelf?"`).
 
 The model will analyze the image and attempt to answer the question. The inference result will be output to the terminal in text form, for example:
 
 ```
-Xiaochuan: The apple is on the right side of the table.
+Xiaochuan: There are three apples on the shelf.
 ```
 
 #### 2. Interactive Inference
@@ -66,12 +66,12 @@ This command will launch an interactive terminal that waits for you to enter the
 
 The model will perform inference based on the provided image and wait for you to enter a question.
 
-Once you enter a question (e.g., `"Where is the apple on the table?"`), the model will analyze the image and attempt to answer it. The inference result will be output to the terminal in text form, for example:
+Once you enter a question (e.g., `"How many apples are there on the shelf?"`), the model will analyze the image and attempt to answer it. The inference result will be output to the terminal in text form, for example:
 
 ```bash
 Image Path >>>>> asserts/demo.jpg
-User: Where is the apple on the table?
-Xiaochuan: The apple is on the right side of the table.
+User: How many apples are there on the shelf?
+Xiaochuan: There are three apples on the shelf.
 ```
 
 Using this approach, you can easily interact with the model and ask it various questions.
