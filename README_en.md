@@ -1,45 +1,53 @@
+Here is the English version of the instructions in Markdown format:
+
 <div align=center>
-  <img src="./asserts/robot_l.png" width=600 >
+  <img src="asserts/robot_l.png" width=600 >
 </div>
 
 <div align="center">
 
-<h1> Visual Auditory Fusion Perception </h1>
+# Multimodal Perception AI Platform
 
 </div>
 
 <div align="center">
 
-[📕中文版README](./README.md) | 📗 [英文版README](./README_en.md)
+[📕 Chinese README](./README.md) | 📗 [English README](./README_en.md)
 
 </div>
 
-### 📻 Installation
+### 📻 Installation Guide
 
-Before using our model, you first need to ensure that all the necessary dependencies are installed in your environment. These dependencies cover the libraries and tools required for the model to run, ensuring that you can smoothly perform model inference. Here are the steps to install these dependencies:
+Before using our model, you need to ensure that all necessary dependencies are installed in your environment. These dependencies cover various libraries and tools required for the model's operation, ensuring a smooth inference process.
 
-1. **Open a terminal or command prompt**: Depending on your operating system, open the corresponding command-line interface.
+Please follow these steps for the installation:
+
+1. **Open the Terminal or Command Prompt**: Depending on your operating system, open the corresponding command-line interface.
 2. **Install dependencies using pip**: Enter the following command to install the required Python packages and libraries using pip.
 
 ```bash
-pip install SwissArmyTransformer>=0.4.9 transformers>=4.36.2 xformers>=0.0.22 torch>=2.1.0 torchvision>=0.16.2 spacy>=3.6.0 pillow>=10.2.0 deepspeed>=0.13.1 seaborn>=0.13.2 loguru~=0.7.2 streamlit>=1.31.0 timm>=0.9.12 accelerate>=0.26.1 pydantic>=2.6.0
+pip install -r requirements.txt
 ```
-
-This command will install a series of Python libraries, including libraries for deep learning (such as `torch` and `transformers`), image processing (such as `torchvision` and `pillow`), natural language processing (such as `spacy`), model acceleration (such as `deepspeed` and `accelerate`), and others for data visualization (such as `seaborn`) and logging (such as `loguru`).
 
 ### 🚀 Inference Guide
 
-Once you have installed all the necessary dependencies, you can start using our model for inference. We provide two ways of performing inference: using the terminal and using the interactive inference.
+After installing all the necessary dependencies, you can start using our model for inference. We provide two ways of performing inference: using the terminal and using the interactive inference.
 
-#### 1. Inference Using the Terminal
+Here, we will use the example image `asserts/demo.jpg` for illustration:
 
-If you want to run the inference script directly in the terminal, you can use the following command:
+<img src="asserts/demo.jpg" width=400>
+
+#### 1. Inference using the Terminal
+
+If you want to directly run the inference script in the terminal, you can use the following command:
 
 ```bash
-python chatme.py --image demo.jpg --question "Where is the apple on the table?"
+python chatme.py --image asserts/demo.jpg --question "Where is the apple on the table?"
 ```
 
-This command will load a pre-trained model and use the provided image (`demo.jpg`) and question (`"Where is the apple on the table?"`) to perform inference. The model will analyze the image and try to answer the given question. The inference result will be output as text in the terminal, for example:
+This command will load the pre-trained model and perform inference using the provided image (`demo.jpg`) and question (`"Where is the apple on the table?"`).
+
+The model will analyze the image and attempt to answer the question. The inference result will be output to the terminal in text form, for example:
 
 ```
 Xiaochuan: The apple is on the right side of the table.
@@ -53,18 +61,22 @@ In addition to using the terminal for inference, you can also use the interactiv
 python main.py
 ```
 
-This command will launch an interactive terminal, waiting for you to input the image address. You can type the address of the image (e.g., `demo.jpg`) in the terminal and press Enter. The model will then perform inference based on the provided image and wait for your question. Once you enter a question (e.g., `"Where is the apple on the table?"`), the model will analyze the image and try to answer the question. The inference result will be output as text in the terminal, for example:
+This command will launch an interactive terminal that waits for you to enter the image path. You can type the image path (e.g., `asserts/demo.jpg`) in the terminal and press Enter.
+
+The model will perform inference based on the provided image and wait for you to enter a question.
+
+Once you enter a question (e.g., `"Where is the apple on the table?"`), the model will analyze the image and attempt to answer it. The inference result will be output to the terminal in text form, for example:
 
 ```bash
-Image address >>>>> demo.jpg
+Image Path >>>>> asserts/demo.jpg
 User: Where is the apple on the table?
 Xiaochuan: The apple is on the right side of the table.
 ```
 
-This way, you can easily interact with the model and ask it various questions.
+Using this approach, you can easily interact with the model and ask it various questions.
 
 
-## References
+### References
 
 #### 📈 Benchmark ####
 
