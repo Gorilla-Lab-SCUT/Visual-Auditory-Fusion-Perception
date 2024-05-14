@@ -12,7 +12,7 @@ Here is the English version of the instructions in Markdown format:
 
 <div align="center">
 
-[📕 Chinese README](./README.md) | 📗 [English README](./README_en.md)
+[📕 Chinese README](./README.md) | 📗 English README
 
 </div>
 
@@ -28,6 +28,7 @@ Please follow these steps for the installation:
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ### 🚀 Inference Guide
 
@@ -76,7 +77,7 @@ Xiaochuan: The apple is on the right side of the table.
 Using this approach, you can easily interact with the model and ask it various questions.
 
 
-### References
+### 🧾 References
 
 #### 📈 Benchmark ####
 

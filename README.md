@@ -10,7 +10,7 @@
 
 <div align="center">
 
-[📕中文版README](./README.md) | 📗 [英文版README](./README_en.md)
+📕中文版README | 📗 [英文版README](./README_en.md)
 
 </div>
 
@@ -23,10 +23,10 @@
 1. **打开终端或命令提示符**：根据您的操作系统，打开相应的命令行界面。
 2. **使用pip安装依赖项**：输入以下命令，通过pip安装所需的Python包和库。
 
-
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ### 🚀 推理指南
 
@@ -75,7 +75,7 @@ python main.py
 通过这种方式，您可以轻松地与模型进行交互，并向其提出各种问题。
 
 
-### References
+### 🧾 References
 
 #### 📈 Benchmark ####
 
